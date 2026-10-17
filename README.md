@@ -4,7 +4,7 @@ Drop in hook, body, and ending clips. Get every combination as a ready-to-post 1
 
 ## Download
 
-Go to the **Releases** page of this repo and grab the latest:
+Open https://github.com/mcaniffb/reel-remixer/releases/latest and download:
 
 - **Mac (M1 or newer):** `Reel-Remixer-Mac.zip`
 - **Windows:** `Reel-Remixer-Windows.zip`
@@ -43,15 +43,9 @@ All clips are converted to 1080×1920 at 30fps with consistent audio, so mixed c
 
 ## Releasing a new version (for whoever maintains this)
 
-Every push to `main` builds both apps automatically (Actions tab → latest run → Artifacts).
-To publish downloads for the team, create a tag:
+Every push to `main` builds both apps and publishes them as the newest Release automatically, a few minutes after the push. Share this link with the team; it always points at the current version:
 
-```
-git tag v1.0.1
-git push origin v1.0.1
-```
-
-A Release with both zips appears a few minutes later.
+https://github.com/mcaniffb/reel-remixer/releases/latest
 
 ## Running from source
 
